@@ -1,4 +1,5 @@
 #!/bin/bash
+cat main.c
 #include <stdio.h>
 
 /**
