@@ -2,27 +2,29 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - this is the main function
- * Return: 0
+ * main - Takes random num and
+ *        determines if positive
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-	{
-		printf("%i is positive\n", n);
-	}
-	if (n == 0)
-	{
-		printf("%i is zero\n", n);
-	}
+	printf("%i ", n);
 	if (n < 0)
 	{
-		printf("%i is negative\n", n);
+	puts("is negative");
+	}
+	else if (n == 0)
+	{
+	puts("is zero");
+	}
+	else if (n > 0)
+	{
+	puts("is positive");
 	}
 	return (0);
 }
