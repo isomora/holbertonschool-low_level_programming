@@ -5,9 +5,9 @@
  * Return:0
 */
 int main(void)
-	{
+{
 	char hp[9] = "Holberton";
-
+	
 	int i;
 	
 	for (i = 0; i <= 9; i++)
@@ -16,4 +16,4 @@ int main(void)
 	}
 	_putchar('\n');
 	return (0);
-}		
+}	
