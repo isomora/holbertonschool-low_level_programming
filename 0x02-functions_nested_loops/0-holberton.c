@@ -1,4 +1,6 @@
-#include <unistd.h>
+#include <holberton.h>
+#include <stdio.h>
+
 /**
  * main - prints the text
  *
