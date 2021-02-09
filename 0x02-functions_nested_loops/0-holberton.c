@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	char hp[9] = "Holberton";
+	char hp[] = "Holberton";
 
 	int i;
 
