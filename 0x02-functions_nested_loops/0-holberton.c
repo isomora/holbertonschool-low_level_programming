@@ -1,19 +1,21 @@
 #include "holberton.h"
 /**
- * main - print string using own header and function
- * int: type varianle used
- * Return:0
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char hp[] = "Holberton";
+	char *sh = "Holberton";
 
-	int i;
-
-	for (i = 0; i <= 9; i++)
+	while (*sh)
 	{
-	_putchar(hp[i]);
+		_putchar(*sh);
+		sh++;
 	}
 	_putchar('\n');
+
 	return (0);
 }
+
+
