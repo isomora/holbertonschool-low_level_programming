@@ -1,7 +1,7 @@
-#include <stdio.h>
-int main() {
+#include <holberton.h>
+int main(void) {
    // printf() displays the string inside quotation
-   printf("Holberton");
-   return 0;
+   _putchar("Hello, World!");
+   return ();
 }
 
