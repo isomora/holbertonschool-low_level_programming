@@ -1,14 +1,19 @@
-#include <stdio.h>
-#include <holberton.h>
+#include "holberton.h"
 /**
- * main - prints the text
- *
- *
- *
- * Return: Always 0 (Success)
- */
+ * main - print string using own header and function
+ * int: type varianle used
+ * Return:0
+*/
 int main(void)
-{
-_putchar("Holberton");
-return (0);
-}
+	{
+	char hp[9] = "Holberton";
+
+	int i;
+	
+	for (i = 0; i <= 9; i++)
+	{
+		_putchar(hp[i]);
+	}
+	_putchar('\n');
+	return (0);
+}		
