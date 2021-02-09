@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <holberton.h>
 /**
  * main - prints the text
  *
@@ -8,6 +9,6 @@
  */
 int main(void)
 {
-puts("Holberton");
+_putchar("Holberton");
 return (0);
 }
