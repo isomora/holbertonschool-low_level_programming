@@ -1,15 +1,19 @@
 #include "holberton.h"
+
 /**
- * print_numbers - function that prints the numbers, from 0 to 9
- * Return: void
+ * print_numbers - function with no arguments
+ *
+ * Description: print numbers with using _putchar from 0 to 9
+ * Return: 0 only
  */
 void print_numbers(void)
 {
-	int i = 48;
+	int i;
 
-	while (i <= 57)
+	i = 0;
+	while (i <= 9)
 	{
-		_putchar(i);
+		_putchar(i + '0');
 		i++;
 	}
 	_putchar('\n');
