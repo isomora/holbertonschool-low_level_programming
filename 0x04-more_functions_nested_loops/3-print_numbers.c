@@ -1,15 +1,18 @@
 #include "holberton.h"
 /**
- * print_numbers - print numbers form 0 -9
- * Return: the respective sequence
+ * print_numbers - print the numbers from 0 to 9
+ *
+ * Description: Print numbers
+ *
  */
 void print_numbers(void)
 {
+
 	int i;
 
-	for (i = '0'; i <= '9'; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		putchar(i);
+		_putchar(i + '0');
 	}
-	putchar('\n');
+	_putchar('\n');
 }
