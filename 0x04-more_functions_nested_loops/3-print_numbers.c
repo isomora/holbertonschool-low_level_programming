@@ -1,18 +1,17 @@
 #include "holberton.h"
+#include <unistd.h>
 /**
- * print_numbers - print the numbers from 0 to 9
- *
- * Description: Print numbers
- *
+ * print_numbers - function that prints the numbers, from 0 to 9
+ * Return: void
  */
 void print_numbers(void)
 {
+	int i = 48;
 
-	int i;
-
-	for (i = 0; i <= 9; i++)
+	while (i <= 57)
 	{
-		putchar(i + '0');
+		_putchar(i);
+		i++;
 	}
-	putchar('\n') i;
+	_putchar('\n');
 }
