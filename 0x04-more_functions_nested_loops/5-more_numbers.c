@@ -6,6 +6,11 @@
  * Description: Print numbers
  *
  */
+int _putchar(char c)
+{
+        return (write(1, &c, 1));
+}
+
 void more_numbers(void)
 {
 
