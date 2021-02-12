@@ -1,33 +1,25 @@
 #include "holberton.h"
-#include <unistd.h>
 /**
- * more_numbers -  function that prints 10 times the numbers, from 0 to 14
- * Return: void
+ * more_numbers - print 10 times the numbers form 0 to 14
+ *
+ * Description: Print numbers
+ *
  */
 void more_numbers(void)
 {
-	int i;
-	int j;
-	int k;
+
+	int i, j, x, y;
 
 	for (i = 0; i <= 9; i++)
 	{
-		for (j = 48; j <= 49; j++)
+		for (j = 0; j <= 14; j++)
 		{
-			for (k =  48; k  <= 57; k++)
-			{
-				if (j  !=  48)
-				{
-					_putchar(j);
-				}
-				_putchar(k);
-				if (j == 49 && k == 52)
-				{
-					break;
-				}
-			}
+			x = j / 10;
+			y = j % 10;
+			if (x != 0)
+				_putchar(x + '0');
+			_putchar(y + '0');
 		}
 		_putchar('\n');
 	}
 }
-
