@@ -1,20 +1,20 @@
-#include "holberton.h"
-
+i#include "holberton.h"
 /**
- * factorial - function that return the factorial from a number
- * @n: int
+ * _pow_recursion - function that return the power from a number
+ * @x: int base
+ * @y: int pow
  * Return: int
  */
-int factorial(int n)
+int _pow_recursion(int x, int y)
 {
-	if (n == 0)
+	if (y == 0)
 	{
 		return (1);
 	}
-	else if (n < 0)
+	else if (y < 0)
 	{
 		return (-1);
 	}
 
-	return (n * factorial(n - 1));
+	return (x * _pow_recursion(x, (y - 1)));
 }
