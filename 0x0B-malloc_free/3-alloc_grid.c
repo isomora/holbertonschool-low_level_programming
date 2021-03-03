@@ -10,7 +10,7 @@
  */
 int **alloc_grid(int width, int height)
 {
-	int **matrix;
+	int 
 	int i;
 	int j;
 
